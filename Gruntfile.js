@@ -131,7 +131,7 @@ module.exports = function(grunt) {
 
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'csslint','cssmin', 'concat', 'concurrent']);
+  grunt.registerTask('default', ['jshint','cssmin', 'concat', 'concurrent']);
 
   grunt.registerTask('build', ['cssmin', 'uglify']);
 

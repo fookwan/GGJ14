@@ -1,0 +1,63 @@
+
+
+#man {
+	position: absolute;
+	bottom: 0;
+	width: 500px;
+	height: 616px;
+	background: transparent url(/images/animations/ManIdle.gif) 0 0 no-repeat;
+	z-index: 20;
+}
+
+#cat {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 350px;
+	height: 245px;
+	background: transparent url(/images/animations/CatIdle.gif) 0 0 no-repeat;
+	z-index: 19;
+}
+
+#fish {
+	position: absolute;
+	bottom: 50px;
+	right: 50%;
+	width: 180px;
+	height: 180px;
+	background: transparent url(/images/animations/Fish.gif) 0 0 no-repeat;
+	z-index: 18;
+}
+
+
+#bowl {
+	position: absolute;
+	bottom: 50px;
+	right: 50%;
+	width: 180px;
+	height: 180px;
+	background: transparent url(/images/animations/Bowl.gif) 0 0 no-repeat;
+	z-index: 16;
+}
+
+#fish_alone {
+	position: absolute;
+	bottom: 30px;
+	right: 50%;
+	width: 180px;
+	height: 180px;
+	background: transparent url(/images/animations/FishDead.gif) 0 0 no-repeat;
+	z-index: 17;
+}
+
+
+
+#flower {
+	position: absolute;
+	bottom: 160px;
+	right: 27%;
+	width: 242px;
+	height: 388px;
+	background: transparent url(/images/animations/Flower.gif) 0 0 no-repeat;
+	z-index: 16;
+}

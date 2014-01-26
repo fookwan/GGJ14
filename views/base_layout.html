@@ -10,13 +10,52 @@
 	</head>
 
 	<body>
+		<div id="main_background">
+
+			<div id="man"></div>
+
+			<div id="cat"></div>
+
+			<div id="fish"></div>
+			<div id="fish_alone"></div>
+			<div id="bowl"></div>
+
+			<div id="flower"></div>
+		</div>
+
 		{% block content %}{% endblock %}
+
+		<div id="user-console">
+			<div class="btn btn-info action-Man" onclick="man.walkRight()">Walk Man Right</div>
+			<div class="btn btn-info action-Man" onclick="man.walkLeft()">Walk Man Left</div>
+
+			<div style="margin-left: 100px;" class="btn btn-default action-Fish" onclick="fish.kill()">Kill Fish</div>
+
+			<br>
+			<br>
+
+			<div class="btn btn-warning action-Cat" onclick="cat.walkLeft()">Walk Cat Left</div>
+			<div class="btn btn-warning action-Cat" onclick="cat.walkRight()">Walk Cat Right</div>
+			<div class="btn btn-warning action-Cat" onclick="cat.kill()">Kill Cat</div>
+			<div class="btn btn-warning action-Cat" onclick="cat.revive()">Revive Cat</div>
+
+			<div id="tell-user" class="hid">Welcome!</div>
+		</div>
 
 		
 		<script src="/js/jquery-1.10.2.js"></script>
 		<script src="/js/jquery-ui.js"></script>
 		<script src="/js/bootstrap.js"></script>
 		<script src="/js/current-build.js"></script>
+		<script src="/js/jquery.spritely.js"></script>
+		<script src="/js/jquery.path.js"></script>
+
+
+		<script>
+			$(document).ready(function(){
+				tellUser('Welcome!');
+			});
+		</script>
 	</body>
 
 </html>
