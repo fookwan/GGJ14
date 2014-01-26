@@ -1,0 +1,51 @@
+{
+  "name": "client_platform",
+  "homepage": "",
+  "dependencies": {
+    "express": "3.2.6",
+    "swig": "*",
+    "mongoose": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "bcrypt": "latest",
+    "connect": "latest",
+    "connect-mongo": "~0.3.3",
+    "connect-ensure-login": "latest",
+    "underscore": "~1.5.1",
+    "mongoose-timestamps": "latest",
+    "imager": "latest",
+    "postmark": "latest",
+    "crocodoc-node": "latest",
+    "newrelic": "latest",
+    "mongoose-auto-increment": "latest",
+    "async": "latest",
+    "request": "latest"
+  },
+  "main": "lib/client_platform",
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "livereload": "latest",
+    "jshint": "latest",
+    "grunt-swig": "*",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-csslint": "0.1.2",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-concurrent": "latest",
+    "grunt": "~0.4.1",
+    "mocha": "latest",
+    "zombie": "~2.0.0-alpha19"
+  },
+  "keywords": []
+}
